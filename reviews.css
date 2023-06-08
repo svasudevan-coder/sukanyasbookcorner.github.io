@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   padding-top: 56px;
   min-height: 100vh;
-  /* background-color:#faf1f0; */
+  background-color:#d1a7c8;
   margin: 2em;
 /*   background-image: url("/books.jpg"); */
 }
@@ -86,6 +86,6 @@ p{
 }
 
 h2{
-/*   color: #fcba03; */
+  color: #fcba03;
   font-size: 3em;
 }
