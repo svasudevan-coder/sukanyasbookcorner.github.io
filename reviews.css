@@ -8,6 +8,10 @@
  font-family: 'Noto Serif', serif;
 }
 
+html{
+  background-color: #d1a7c8;
+}
+
 body {
   display: flex;
   flex-direction: column;
