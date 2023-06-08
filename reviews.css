@@ -1,0 +1,91 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Noto Serif', serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+  min-height: 100vh;
+  /* background-color:#faf1f0; */
+  margin: 2em;
+  background-image: url("/books.jpg");
+}
+
+/* navbar */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* doesnt allow images to interfere with hover functions */
+    z-index: 10000;
+  }
+  
+  header .logo {
+  color: #49524b;
+  font-weight: 500;
+  /* removes link line undereath text */
+  text-decoration: none;
+  font-size:2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+  
+  /* arranges in a line instead of beneath each other  */
+  header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+header ul li {
+    /* removes bullet points that lists have automatically */
+    list-style: none;
+    /* evenly spaces out 'home' 'about me' 'contact' 'work' */
+    margin-left:20px;
+    }
+    
+    header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #49524b
+    }
+    
+    /* , 
+    header ul li a.active, */
+    header ul li a:hover {
+    background: white;
+    color: #49524b;
+    border-radius: 20px;
+    } 
+
+    /* reviews */
+.rev-cont{
+      background-color: white;
+ }
+.rev{
+  /* border: 5px solid black; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+p{
+  font-family: 'Noto Serif', serif;
+  font-size: 1.3em;
+}
+
+h2{
+  color: #fcba03;
+  font-size: 3em;
+}

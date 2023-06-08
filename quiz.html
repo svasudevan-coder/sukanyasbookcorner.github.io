@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<!-- this scales the content to display nicely on mobiles/tablets -->
+	<meta name="viewport" content="width=device-width">
+
+	<title>Project Demo - Home</title>
+
+	<!-- Bootstrap and FontAwesome cdn links -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	 crossorigin="anonymous">
+	<!-- our custom styles -->
+	<link rel="stylesheet" href="quiz.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  <!-- src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" -->
+	</script>
+
+
+</head>
+
+<body>
+  	<header>
+<a href="index.html" class="logo">Sukanya's Book Corner</a>
+		<ul>
+			<li><a href="index.html" class="active">Home</a></li>
+			<li><a href="Quiz.html">Quiz</a></li>
+		</ul>
+	</header>
+  <br>
+  <div class = "top">
+    <h1><a>
+        Which book should you read next?
+    </a></h1>
+  </div>
+	
+
+	<h2>Favorite Genre?</h2>
+	<div class="question">
+		<div class="answer-choice">
+	
+        <br>
+        <button id="q1a1">Fantasy</button>
+      </div>
+      <div class="answer-choice">
+    
+        <br>
+        <button id="q1a2">Heartwarming</button>
+      </div>
+      <div class="answer-choice">
+      
+        <br>
+        <button id="q1a3">Historical Fantasy</button>
+      </div>
+      <div class="answer-choice">
+     
+        <br>
+        <button id="q1a4">Realistic Fiction</button>
+      </div>
+    </div> 
+    
+    <h2>What traits do you look for in a protagonist?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q2a1">Intelligent</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q2a2">Curious</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q2a3">Competitive to a fault</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q2a4">Unlikeable/Boring</button>
+      </div>
+    </div> 
+    
+    <h2>Favorite setting?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q3a1">Somewhere I can escape from reality</button>
+      </div>
+         <div class="answer-choice">
+        <br>
+        <button id="q3a2">16th Century</button>
+      
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q3a3">Island off of Whales</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q3a4">1990's</button>
+      </div>
+    </div> 
+    
+    <h2>Favorite part of a book?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q4a1">Underdeveloped Characters</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q4a2">"Like calls to like"</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q4a3">Anticlimactic ending</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q4a4">Mysterious men</button>
+      </div>
+    </div> 
+
+    <h2>Favorite Aesthetic?</h2>
+    <div class="question">
+        <div class="answer-choice">
+          <br>
+          <button id="q5a1">Dark Academia</button>
+        </div>
+        <div class="answer-choice">
+          <br>
+          <button id="q5a2">Magical</button>
+        </div>
+        <div class="answer-choice">
+          <br>
+          <button id="q5a3">Egyptian</button>
+        </div>
+        <div class="answer-choice">
+          <br>
+          <button id="q5a4">Sporty</button>
+        </div>
+      </div> 
+
+    
+     <div class="result">
+       <center>
+         <br>
+         <br>
+         <input class = "submit-btn" type = "submit">
+         <br>
+         <br>
+           <h3 id="result"></h3>
+           <h3 id="image"> </h3>
+       </center>
+      </div>
+    <script src="script.js"></script>
+  
+  
+  </body>
+
+</html>

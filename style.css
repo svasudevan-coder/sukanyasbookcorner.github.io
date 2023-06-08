@@ -1,0 +1,149 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #faf1f0;
+  scroll-behavior: smooth;
+}
+
+.logo{
+  width: 100%;
+  height: 70vh;
+  /* border: 5px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #d494b8; */
+  color: #a7d4db;
+  font-family: 'Noto Serif', serif;
+  font-size: 2em;
+  background-image: url("bookstore.jpg");
+}
+
+/* description box */
+.description {
+  width: 100%;
+  /* height: 30vh; */
+  /* border: 5px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d494b8;
+  font-family: 'Noto Serif', serif;
+}
+
+#intro{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.review-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 5px solid black; */
+  align-items: center;
+  justify-content: center;
+  background-image: url("books.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.review{
+  position: relative;
+  /* left: 9%; */
+  width: 350px;
+  /* height: 500px; */
+  /* margin-left: 30px; */
+  margin-right: 20px;
+  margin-top: 20px;
+  /* border: 5px solid black; */
+ 
+}
+
+.review-img{
+  /* width: 350px;
+  height: 300px; */
+  /* border: 5px solid black; */
+}
+
+img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.review-desc{
+  width:350px;
+  /* height: 200px; */
+  /* border: 5px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fad7d7;
+  
+}
+
+.btn{
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  background-color: #fad7d7;
+  padding-bottom: 20px;
+}
+/* latest reviews */
+.latest{
+  /* border: 5px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d494b8;
+  font-family: 'Noto Serif', serif;
+  background-image: url("books.jpg");
+  font-size: 2em;
+
+}
+
+#t1{
+  
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+/* buttons */
+a.button1{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.2em solid #cca1c5;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: 'Noto Serif', serif;
+  font-weight:300;
+  color:#425c47;
+  text-align:center;
+  transition: all 0.2s;
+}
+  a.button1:hover{
+  color:#425c47;
+  background-color:#cca1c5;
+}
+
+/* quiz section */
+.Quiz{
+  /* border: 5px solid black; */
+  width: 100%;
+  font-family: 'Noto Serif', serif;
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  color:#425c47;
+  padding-bottom: 30px;
+}
+
+
+/* navbar */
