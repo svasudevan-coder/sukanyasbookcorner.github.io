@@ -15,7 +15,8 @@ body {
   min-height: 100vh;
   /* background-color:#faf1f0; */
   margin: 2em;
-  background-image: url("/books.jpg");
+/*   background-image: url("/books.jpg"); */
+ background-color: #d1a7c8;
 }
 
 /* navbar */
